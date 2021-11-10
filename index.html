@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"/>
+</head>
+<body style="background-color: black;overflow-x: hidden;text-align:center;">
+	<div style="width:100%;position: absolute;text-align:center;top: 50%;transform: translateY(-50%);font-size: calc(10vw + 10vh);color:#8FFE09;">
+		<p style="font-family:Helvetica;" id="current_word">
+	</div>
+	<br>
+	<a style="text-decoration:none;" href="https://open.spotify.com/playlist/2HsgVp62IDSNXmMNvzGps4?si=e73dc27a67eb474d"><div style="font-size:11px;color:white;font-family:Helvetica;">ⳎLⳚYⅬ⼯Sⶒ</div></a>
+
+	<script>
+		text = `ⷎ⼇▱⻂⩤ⲽ
+		ⶤ⟮⽙⟇⫈ⸯ⠣
+		⻝Ⓝ⋔℗⥓⌹
+		⫻⭝ℎ⠗◑⇃⠹
+		⧥⎲➝┹ⷒ
+		╫Ⲭ⼢⎮⎇
+		⺜⬡≖∫⌛
+		T3CHN0
+		ℭ⫸⎟⛲⭘⇉
+		≃⬰▙⫱❈⫸
+		⊶⎑⌙⅕⠣ℭ
+		⇳∁⡾⫑⊆⠣
+		AC1D
+		⁾⸊⊉ⱍⵙ⠣
+		⛳⃟▫⍺▸⪱ⲧ
+		⥒⚀ℜℤ⤈
+		H3LP
+		ⰼ⢎⢦⍷⾙
+		⛔⇷⻤⍥⾴
+		⌐⟝≹⣎⒃
+		✇⽫▚ⶪ➒┪
+		⺱₮⥬⟉╂☤
+		AL14NS
+		⊛⇧≒┣⪺⅕
+		✽ⳬ◤ⷑ⼳⽱
+		☁⢢⊋⛈⊟⺍Ⲭ
+		⛱Ⳬ␅⋨⁢⺄⳸
+		⦧⼟☺⪛⛺☺
+		⪏⛴⑤⇓➋⢉
+		CYB3R
+		⠫⽝⛑✬⮋
+		AL14NS
+		⾦⋧⽱⯥⚥⫝
+		⾄⿒⻑↺♼
+		◖⽉ⳇ⤨ⲱⷒ⭞
+		⽙⧭⾺₥⦎‎⠣
+		⚤⭍⛰≞≹☳₿
+		ⱔ⬖➢≶⇴⓽
+		⟦❩ℾ⽊␻⤬
+		⫻⭝ℎ⠗◑⇃⠹
+		⛽ⴏ⻍Ⱞ⟢╇
+		⧥⎲➝┹ⷒ
+		╫Ⲭ⼢⎮⎇
+		⺜⬡≖∫⠹
+		⽌₍⼝⊮⃱∉⚾
+		⋡⑥⼥⬣≺⮍⧭
+		⹭╔ⷝ⍎⮅⁃╲ⷷ
+		AL14NS
+		ⅼ⩛⪡⇒⛣♗⢦
+		⛩⣝⩷⒄╽⎱∞∨
+		➜◺⅝⡖⊣ⶫ⤂
+		ⶸⶏⵅ␃➨ⳍ
+		⑄⣹ⴆ❇ⵗ⫛ⱕ⎩⭸
+		⦬⋤ⲅ⡖⠦ⶂ⤈⫅Ɱⷦ
+		AL14NS
+		⛹⟖⇾ⴥ◾⩸ⱟ⋾⳱
+		╿◉ↈ‏┊↦≘⇴⒋
+		⛔⇷⻤⍥⾴
+		F'-K
+		⌐⟝≹⣎⒃
+		✇⽫▚ⶪ➒┪
+		⺱₮⥬⟉╂☤
+		AC1D
+		⊛⇧≒┣⪺⅕
+		✽ⳬ◤ⷑ⼳⽱
+		☁⢢⊋⛈⊟⺍Ⲭ
+		▛ⓞ⪌➎∂Ⱪ⻍
+		⡣ⳗⵍ‸⅐⵮ⴸ⤹∅ⷿ
+		T3CHN0
+		ℭ⫸⎟⛲⭘⇉
+		ⶠ℗ⳤ℔’⮺Ⱍ
+		Ⱊⶑ⩚⶝♡⩩
+		⭞♠ⅆ⭓⻡⏟⫨
+		≃⬰▙⫱❈⫸
+		Ⳛ⃭⇞⇈⇘⨘Ⰳ⍋⧽
+		⸮Ⅸ✪⒓⪊⥖⨰⊰
+		⭃ⲡ⦪␘☩❣⭽⍵
+		⿊⩸⹲⤦⫮♀Ɱ⴩
+		⸦♻✖◎⚮⼂⛽Ⱄ
+		K⚓⺾⌌⃛Ⰺⲃ⥛
+		❾⒱☨ⵯ⡖⃧‰⇜❾
+		⽄⺓⏴⣁⪼➱
+		⊶⎑⌙⅕⠣ℭ
+		⇳∁⡾⫑⊆⠣
+		⼣⏧⤀⧾⛷⁳⚄
+		⁾⸊⊉ⱍⵙ⠣`
+		words = text.replace("'", "");
+		words = words.replace(/['"]+/g, '');
+		words = words.split('\n');
+
+		a = 1;
+		stop = false;
+
+		function scanner() {
+			document.getElementById('current_word').innerHTML = words[a];
+			if (stop == false) {
+				a++;
+			}
+			a = a % (words.length);
+
+			setTimeout(scanner, 100);
+		}
+
+		scanner();
+
+	</script>
+</body>
+
+
+
+</html>
